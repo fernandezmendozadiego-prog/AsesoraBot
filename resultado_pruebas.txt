@@ -1,0 +1,37 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.12.0, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\ferna\AppData\Local\Programs\Python\Python312\python.exe
+rootdir: C:\Users\ferna\Desktop\Servicio Tacos3\AsesoraBot
+plugins: anyio-4.16.0
+collecting ... collected 29 items
+
+tests/test_requisitos.py::test_PR01_ver_asesorias_por_materia PASSED     [  3%]
+tests/test_requisitos.py::test_PR02_buscar_por_parte_del_nombre PASSED   [  6%]
+tests/test_requisitos.py::test_PR03_inscribirse_con_cupo_y_sesion_llena PASSED [ 10%]
+tests/test_requisitos.py::test_PR03b_no_dos_sesiones_a_la_misma_hora PASSED [ 13%]
+tests/test_requisitos.py::test_PR04_cancelar_inscripcion_libera_lugar PASSED [ 17%]
+tests/test_requisitos.py::test_PR05_recordatorio_60_minutos_antes PASSED [ 20%]
+tests/test_requisitos.py::test_PR06_asesor_cancela_y_avisa_a_todos PASSED [ 24%]
+tests/test_requisitos.py::test_PR06b_cancelacion_tardia_y_mover_sesion PASSED [ 27%]
+tests/test_requisitos.py::test_PR07_codigo_solo_durante_la_sesion PASSED [ 31%]
+tests/test_requisitos.py::test_PR08_registrar_asistencia_con_codigo PASSED [ 34%]
+tests/test_requisitos.py::test_PR09_horas_del_asesor_se_suman_solas PASSED [ 37%]
+tests/test_requisitos.py::test_PR10_constancia_pdf_al_cumplir_la_meta PASSED [ 41%]
+tests/test_requisitos.py::test_PR11_reporte_semanal_lunes_8 PASSED       [ 44%]
+tests/test_requisitos.py::test_PR12_tutor_consulta_asistencia PASSED     [ 48%]
+tests/test_requisitos.py::test_PR13_calificar_asesoria PASSED            [ 51%]
+tests/test_requisitos.py::test_PR14_baja_de_asesor_y_alta_de_materia PASSED [ 55%]
+tests/test_requisitos.py::test_PR15_carga_50_usuarios_y_crecimiento PASSED [ 58%]
+tests/test_requisitos.py::test_PR16_servicio_web_responde_y_no_se_cae PASSED [ 62%]
+tests/test_requisitos.py::test_PR17_solo_numero_de_control_y_datos_por_rol PASSED [ 65%]
+tests/test_requisitos.py::test_PR18_mensajes_validos_para_todos_los_clientes PASSED [ 68%]
+tests/test_requisitos.py::test_PR19_instalacion_con_un_comando PASSED    [ 72%]
+tests/test_requisitos.py::test_PR20_postularse_como_asesor PASSED        [ 75%]
+tests/test_requisitos.py::test_PR21_aprobar_o_rechazar_aspirante PASSED  [ 79%]
+tests/test_requisitos.py::test_PR22_registrar_horario_y_validar_choques PASSED [ 82%]
+tests/test_requisitos.py::test_PR23_canalizar_y_avisar_asistencia_al_tutor PASSED [ 86%]
+tests/test_requisitos.py::test_PR24_informe_semestral_automatico PASSED  [ 89%]
+tests/test_requisitos.py::test_PR25_reporte_por_jefatura PASSED          [ 93%]
+tests/test_requisitos.py::test_PR26_codigo_caduca_en_2_minutos_y_vale_una_vez PASSED [ 96%]
+tests/test_requisitos.py::test_PR27_aulas_libres_como_botones PASSED     [100%]
+
+============================= 29 passed in 2.92s ==============================

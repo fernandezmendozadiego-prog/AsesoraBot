@@ -78,20 +78,21 @@ Le basta con abrir Telegram, buscar el bot y escribir `/start`; no tiene que ins
   - ver sus horas.
 - **📋 Tutor:** ver tutorados, canalizar a uno a una materia.
 - **🗂️ Coordinación:** aprobar o rechazar aspirantes, ver el reporte semanal, descargar el Excel, generar el PDF de constancia, ver el informe semestral, agregar materias y aulas (Materias → 🏫 Aulas) y dar de baja.
+- **🏛️ Jefatura:** reporte solo de las materias de su departamento.
+
+Para probar la asistencia completa se puede usar un segundo teléfono: uno como asesor y otro como alumno.
 
 ## Actualizar el bot en la nube
 
 1. Sube el `AsesoraBot.zip` nuevo en la pestaña **Files** (reemplaza al anterior).
 2. En la consola **Bash**:
    ```bash
+   cd ~
    unzip -o AsesoraBot.zip -d AsesoraBot
    cd ~/AsesoraBot && python3.12 -m pytest -q
    ```
    El archivo `.env` no viene en el zip, así que se conserva.
 3. En la pestaña **Web**, toca **Reload**.
-- **🏛️ Jefatura:** reporte solo de las materias de su departamento.
-
-Para probar la asistencia completa se puede usar un segundo teléfono: uno como asesor y otro como alumno.
 
 ## Seguridad y privacidad
 
